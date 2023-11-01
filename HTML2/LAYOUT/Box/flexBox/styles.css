@@ -1,0 +1,37 @@
+body {
+  margin: 10px;
+}
+
+.container {
+  border: 3px solid lightgray;
+  display: flex; /* to set boxes horizontally */
+  flex-direction: row; /* try all by yourself */
+  justify-content: center; /* firtly set the flex-direction to row then justify content  */
+  /* justify-content: space-evenly; */
+  align-items: center;
+  /* flex-wrap: wrap; when we have multiple lines or boxes  */
+   /* align-content:center ; when we have multiple lines  */
+  height: 90vh;
+}
+
+.box {
+ /* flex-basis: 5rem; equal to width  */
+ /* flex-grow: 1 ; when extra space available it allows to take extra space by growing boxes */
+ /* flex-shrink: ; opposite to flex grow, it shrinks the box according the space available */
+ flex:1 1 15rem ;
+ /* this property is use for three of the above flex, first value is for grow, second for shrink, third for flex basis and only flex require units  */
+    width: 5rem;
+  height: 5rem;
+  background-color: cadetblue;
+  margin: 1rem;
+}
+
+
+.box-one {
+    /* align-self: flex-end; box one move downs */
+    /* flex-grow: 0; when set to 0 the box will not grow  */
+    /* flex-shrink: 0; */
+}
+/* with flex we can lay out a bunch of elements in one direction, either in a row or column */
+
+/* for aligning item there are two properties= justify-content (along main axix), align-items (along cross axix)  */

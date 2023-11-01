@@ -1,0 +1,14 @@
+.box {
+    width: 600px;
+    height: 200px;
+    background: rgb(0,30,36);
+    background: linear-gradient(90deg, rgba(0,30,36,1) 20%, rgba(75,121,85,0.8157387955182073) 67%, rgba(0,212,255,1) 100%);
+
+
+    
+    /* radial-gradient(circle at top left,purple, white) */
+    
+    /*  background: linear-gradient(to bottom right, rgb(230, 86, 110) ,yellow 90%, green); */
+}
+
+/* search gradient generators= css code mentioned below */

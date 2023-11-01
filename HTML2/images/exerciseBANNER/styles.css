@@ -1,0 +1,144 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../../../HTML1/images/backgroundpurple.jpg);
+    background-size:cover ;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+
+.hero {
+color: #fff;
+text-align: center;
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: center;
+/* jab hum display flex pr set krenge tabhi baqi properties height wagera work krengi ku k flex kisi bhi item ko ek direction me rakhne k liye use hota hai phr baqi properties bhi usi pr work krti hain  */
+}
+
+h1 {
+    font-weight: 900;
+    text-shadow:2px 2px 0 #000;
+    font-size: 5rem;
+text-transform: uppercase;
+word-spacing: 1.5rem;
+
+}
+
+/* tagline ka background ki lambai kam krni hai  */
+.tagline {
+    background: rgba(0, 0, 0, 0.6); /* To make the background semi-transparent, use an rgba color.  */
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding: 1.5rem; /* lambai text ki barhane k liye  */
+}
+
+
+/* Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones). */
+
+@media screen and (min-width: 768px) {
+    .hero {
+      background: url(../images/background_w853.jpg) no-repeat;
+      background-size: cover;
+    }
+    .hero .tagline {
+      font-size: 3rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1.5rem;
+  }
+  
+  .hero {
+    align-items: center;
+    I've specified the reptition of the background (no-repeat) as part of setting the background.
+    background: url(../images/background_w320.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .hero .tagline {
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hero {
+      background: url(../images/background_w853.jpg) no-repeat;
+      background-size: cover;
+    }
+    .hero .tagline {
+      font-size: 3rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .hero {
+      background: url(../images/background_w1228.jpg) no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .hero {
+      background: url(../images/background_w1440.jpg) no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 9rem;
+    }
+  } */

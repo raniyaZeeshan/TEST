@@ -1,0 +1,17 @@
+p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+::selection {
+    background-color: pink;
+}
+
+p::before {
+    content:"...";
+    display: block;
+} 

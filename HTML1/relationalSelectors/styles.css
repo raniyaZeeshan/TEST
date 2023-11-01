@@ -1,0 +1,10 @@
+/* #products p {
+    color: orange;
+} */
+#products > p {
+    color: orange;
+}
+
+/* if we put > or + or ~ in between product > p color will come accordingly  */
+
+/* try to select by id or class */

@@ -1,0 +1,41 @@
+.boxes {
+    border: 3px solid lightcoral;
+    position: relative;
+    /* important to set position relative */
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background-color: aqua;
+    position: relative; 
+    top: 0;
+    z-index: -1;
+}
+
+.box-two {
+    background-color: blueviolet;
+    position: absolute; 
+    left: 30px;
+    top: 30px;
+    /* we can also set fixed position  */
+    /* when we set absolute it is relative to the container box comes on the other side */
+    /* right: 400px;
+    bottom: 0; */
+    /* left: 5rem; 5rem space on the left side of the box */
+    /* if we add negative value -4rem its move the box left off to screen  */
+    /* top: 2rem; it moves the box down  */
+    /* bottom: 4rem; it moves the box upward */
+    z-index: -2; /* to make the box behind the other box and if we set a positive value the box appears on the top pf other box */
+    /* we can give any number to z index it doesn't matter like 9999 */
+}
+
+.box-three {
+    background-color: brown;
+    position: relative;
+    z-index: -11; 
+    top: -30px;
+}

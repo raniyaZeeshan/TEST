@@ -1,0 +1,6 @@
+.heart:hover{ /* when we apply hover property then the picture will turn gray and get blur on when we hover our mouse over picture  */
+    filter: grayscale(70%) blur(3px);
+    /* your picture color will be turn in gray  */
+}
+
+/* to find the complete list of filters then go to google and search CSS FILTER FUNCTION  */

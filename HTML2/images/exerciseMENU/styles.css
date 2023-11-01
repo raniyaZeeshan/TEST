@@ -1,0 +1,120 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* using system font stack here to give different font (-applen then press enter) */
+  font-size: 1.5rem;
+}
+
+.menu {
+  background: #2a2138; /* using HEX colour here (color picker) */
+  color: #cfc6dc;
+}
+
+.menu a {
+  color: inherit; /* to give the same the same color of the text above */
+  text-decoration: none; /* to remove underlines */
+}
+
+.menu ul {
+  list-style: none; /* to remove dot present due to unorder list  */
+  padding-left: 0;
+  /* adding padding here so that icon and text start from left corner  */
+}
+
+.menu li {
+    padding: 1.5rem;
+    /* tp add space after every line vertically */
+}
+
+.menu li:hover, .menu .active {
+  background: #221a2e;
+  color: #fff;
+}
+
+ /* .menu .fas {
+  margin-right: 1rem;
+  width: 2rem;  
+  text-align: center;
+}  */
+
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 20%;
+    /* providing width so that the background besome small */
+    height: 100vh;
+    /* to provide height to the background  */
+  }
+} 
+
+
+
+/* to use icon search font awesome firstly tap on START at the top then add email then save the changes then tap on "set up" down below <script src element copy that and paste in the head section then search for icons then paste in body */
+
+/* adding link of normalize css and will not provide margin so that menu bar start from corner without any gap  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .menu {
+    background: #2a2138;
+    color: #cfc6dc;
+  }
+  
+  .menu a {
+ I've used inherit here so if we change the color of the text in the
+    .menu rule (above), all anchors in the menu will automatically inherit 
+    in the new color. Alternatively, I'd have to specify the same color in 
+ two places.
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu li {
+    padding: 1.5rem;
+  }
+  
+  .menu li:hover, .menu .active {
+    background: #221a2e;
+    color: #fff;
+  }
+  
+  .menu .fas {
+    margin-right: 1rem;
+    width: 2rem;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .menu {
+      width: 20%;
+      height: 100vh;
+    }
+  } */

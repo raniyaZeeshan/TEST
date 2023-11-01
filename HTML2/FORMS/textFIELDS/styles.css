@@ -1,0 +1,10 @@
+/* input fieald taken up the entire width of the page thats a style comes from milligram so for that we apply the style to form element   */
+form {
+    width: 50%;
+    padding: 2rem;
+}
+
+textarea {
+    resize: none;
+    /* so the box will be fixed */
+}

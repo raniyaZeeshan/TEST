@@ -1,0 +1,8 @@
+.product {
+
+}
+
+a [href*="google"]
+{
+    color: blueviolet;
+}

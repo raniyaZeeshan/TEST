@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+ font-family: "Open Sans" Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+p {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+/* search fonts.google.com then search any fonts example open sans then select any font then down below select the combination of font then at the top click on the box like icon(view your selected families) to bring back that panel that contains instruction for using this font then copy the link given at the end and put that in html markup{ after title and before link in html}  */
+
+
+/* system font stack=  write in font-family property : -apple and press enter */

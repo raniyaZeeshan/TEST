@@ -1,0 +1,26 @@
+/* floating elements are no longer in use instead of we can use flexbox and grid  */
+
+.tweet {
+    border: 3px solid lightgray;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+} 
+/* to solve floating issue , when second paragraph is removed but the border we set will not adjust properly */
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: bisque;
+    float: right;
+    margin-right: 0.5rem;
+    
+}
+
+.clear {
+    clear: both;
+}
+/* to make second paragraph below the image */

@@ -1,0 +1,15 @@
+/* external style */
+p {
+    color: green;
+}
+
+#first {
+    color: pink;
+    font-weight: bold;
+  }
+.test {
+    color: chartreuse;
+    font-weight: bold;
+  }
+
+

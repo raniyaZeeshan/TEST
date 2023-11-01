@@ -1,0 +1,40 @@
+
+html {
+    /* font-size: 16px; */
+    font-size: 62.5%; /* yoy can also write 100% */
+    /* 62.5% of 16px = 10px */
+}
+
+body {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:1rem ; 
+    /* 1rem= 1 x font size of the root element (html)  , if the value is 1.5 x 16px */
+    /* common best practice for setting the font size is using the rem unit  */
+}
+
+
+/* for setting the same font size for h1, h2, h3, h4 and so on  */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+font-size: 4.209rem	;
+}
+ /* we assuming these rem values for mobile devices but for tablets and desktop devices you want to write media queries and increase the font size  */
+
+ h2 {
+    font-size: 3.157rem;
+ }
+
+ @media screen (min-width: 400px) {
+    html {
+        font-size: 130%
+    }
+ } 
+ /* now because we are using relative unit everywhere like rem in font size property then the font for all these elements will get bigger automatically */
+
+
+ /* we can also search on google type-scale.com, this is very helful for finding the right font size for different headings then copy the first numbers of your choice fonts  */

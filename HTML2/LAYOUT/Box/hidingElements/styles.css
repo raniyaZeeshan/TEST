@@ -1,0 +1,10 @@
+.first {
+    display: none;
+/* display property hides the elements as if it was never there  */
+    visibility: hidden;
+    /* in this property the element will be hidden but the space of the element is still present  */
+}
+
+/* for example if we set display to none for first paragraph then second will be start from the first box place  */
+ 
+/* but if we set visibility to hidden then second paragraph start from the second line and leave the space emtpy for paragraph one  */

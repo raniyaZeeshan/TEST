@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: peachpuff;
+}
+
+.box:hover {
+    transform: rotate(15deg);
+    /* transform: scale(1.5); */
+    /* transform: skew(-15deg); */
+    /* transform: translate(10px, 10px); */
+    /* transform: rotate(45deg) translate(50px); */
+    /* we can use negative value as well-  */
+}

@@ -1,0 +1,7 @@
+/* most common icon fonts are= FONT AWESOME, INICONS, MATERIAL DESIGN ICONS search any of these */
+/* in font awesome firstly tap on START at the top then add email then save the changes then tap on "set up" down below <script src element copy that and paste in the head section then search for icons then paste in body */
+
+.icon {
+    font-size: 2rem;
+    color: plum;
+}

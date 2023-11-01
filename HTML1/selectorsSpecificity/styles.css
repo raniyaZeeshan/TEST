@@ -1,0 +1,25 @@
+h1 {
+    color: dodgerblue;
+}
+
+.highlights {
+    color: deeppink;
+}
+
+#products {
+    color: green;
+}
+
+#products {
+    color: red;
+}
+
+h1#products{
+    color: yellow;
+}/* .highlights#products or .featured#products can also be used  */
+ 
+/* the rule that comes last will be applied  */
+ /* multiple elements applied */
+
+ /* if we hover our mouse over selector, we can see its weight and specificity */
+ /* first one is id, second is class/attribute, lastly number of elements selector */

@@ -1,0 +1,31 @@
+.gallery {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.gallery img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+    /* To make the images fit the containing cell, you should give them a width of 100% and set their object-fit property to cover so they don’t get squashed.  */
+}
+
+
+@media screen and (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    } 
+    /* for Laptops (1024px) and wider screens  */
+
+
+     .gallery img:nth-of-type(3) {
+      grid-column: 2 / 4;
+       grid-row: 1 / 3;
+    }

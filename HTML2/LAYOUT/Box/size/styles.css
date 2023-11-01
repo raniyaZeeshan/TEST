@@ -1,0 +1,36 @@
+ /* universal selector to select all elements, but it will not be applied on pseudo elements */
+/* * { */
+    /* box-sizing: border-box; */
+/* } */
+
+/* to select pseudo elements we can use this */
+*, *::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px; /* margin: 10px 10px 10px 10px ; */
+    margin: 10px 5px; /* margin: 10px 5px 10px 5px ; */
+    margin: 10px 5px 3px; /* margin: 10px 5px 3px 5px ; */
+}
+
+.box::before {
+    content: "Hello";
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    display: inline-block;
+    /* padding: 20px; */
+    /* border: 10px solid orange; */
+    /* margin: 50px; */
+    /* box-sizing: border-box; */
+    /* display: inline; for span and inline property */
+    /* for div it set to display:block */
+    /* we can also use inline-block property to give then height and width and it will not inserted in a line */
+}
+
+/* inline element does not support height and width property fot this we use DISPLAY property */

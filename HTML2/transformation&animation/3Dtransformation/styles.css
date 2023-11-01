@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgb(196, 147, 192);
+}
+.container {
+    perspective: 200px;
+}
+
+.container:hover .box{
+    transform: translateZ(50px);
+    transform: perspective(200px) rotateY(50deg);
+    transform-origin: 0 59%;
+}
+
+/* .box:hover {
+    transform: perspective(200px) translateZ(50px);
+    transform: perspective(200px) rotateY(50deg);
+    transform-origin: 0 59%;
+} */
+
+.container:hover.box-special {
+    transform: rotateX(45deg);
+}

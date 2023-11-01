@@ -1,0 +1,122 @@
+  html {
+    font-size: 62.5%;
+}
+
+body {
+  color: #222; /* text color */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem; /* size of font increase or decrease  */
+    line-height: 1.5; /* height space between the paragraph lines  */
+    padding: 2rem; /* space from the left side  */
+}
+
+ h1,h2,h3,h4,h5,h6 {
+color: #000; /* text color  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:900; /* to make text bold  */
+    line-height: 1.1; /* space between the text away from the top, no need of any unit */
+  }
+
+/* search type-scale.com  */
+
+h1 {
+  font-size: 5.61rem;
+  text-transform: capitalize; /* to make first letter capital of every word  */
+}
+
+h2 {
+  font-size: 4.209rem;
+}
+
+h3 {
+  font-size: 3.157rem;}
+
+
+img {
+    width: 100%;
+}
+
+  ol li {
+    margin-bottom: 2rem; /* the space increase between the lines of the last (bottom) paragraph  */
+  }
+
+ul li {
+  list-style-type: disc; /* to give the same symbol to all list elements  */
+}
+.lead {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2.5rem; /* to increase the size of the paragraph words  */
+  font-style: italic;
+}
+
+.container {
+  max-width: 1140px; 
+  /* To ensure that the container is in the middle, set the horizontal margin to auto. This way any extra space will be equally distributed to the left and right margins. */
+  margin: 0 auto;
+} 
+ 
+
+
+
+
+
+ /* html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    color: #222;
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding: 2rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  
+  h1 {
+    font-size: 5.61rem;
+  }
+  
+  h2 {
+    font-size: 4.209rem;
+  }
+  
+  h3 {
+    font-size: 3.157rem;
+  }
+  
+  h4 {
+    font-size: 2.369rem;
+  }
+  
+  h5 {
+    font-size: 1.777rem;
+  }
+  
+  h6 {
+    font-size: 1.333rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  ol li {
+    margin-bottom: 2rem;
+  }
+  
+  .lead {
+    font-family: 'PT Serif', 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }  */

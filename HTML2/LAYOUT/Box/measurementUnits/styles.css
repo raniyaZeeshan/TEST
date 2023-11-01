@@ -1,0 +1,24 @@
+html { 
+/* 62.5% of 16px = 10px */
+    font-size: 62.5%;
+}
+/* 62.5% that means whenever we see a value like 15rem we can assume it is eqivalent to 150px, so we multiply it by 10 to make calculation easier */
+
+body {
+    margin: 10px;
+/* width: 300px; */
+} 
+/* body is the parent element */
+
+.box {
+    /* font-size: 20px; used for em unit */
+    /* width: 50% means 50% width of the parent, half value of the body element */
+    width: 10em; 
+    /* rem 10 x font of the root element that is 16px same as em */
+    /* em= 10 x font size of the element, all browser give html element font size of 16px so 10em means 10 times 16px, 10 x 16px= 160px */
+     /*vw= 50% of the width, cover half area horizontally*/
+    height: 100vh; 
+    /*vh= 100% of the height of viewport, cover half area vertically*/
+    background-color: gold;
+    border-top: 3px solid green;
+}

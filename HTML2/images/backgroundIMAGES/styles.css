@@ -1,0 +1,9 @@
+body {
+    background: url(../../../../HTML1/images/newdoors.jpg);
+    background-repeat: no-repeat; /* background image repeat in horizontal axis x and repeat y= vertically */
+/* background-position: 100px 100px; right and down position and if we set first value to 100% then it push the image at right side of the container  */
+background-size: cover; /* 100% 100% one value for width other for height we can also write only cover so the background cover the entire container */
+background-attachment: fixed; /* if we set to fixed then background will stay fixed relative to viewport vh (height) when we scroll background will not move  */
+height: 100vh;
+/* only use this if we set the second value of background-size in % so that the whole image cover the container */
+}
